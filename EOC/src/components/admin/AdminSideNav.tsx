@@ -1,4 +1,13 @@
+
+import { useNavigate } from 'react-router-dom';
+
+
 function AdminSideNav() {
+
+  const handleStaff = ()=>{
+    
+  }
+
     return (
       <>
         <div className="h-screen bg-blue-900 w-40 flex justify-center py-5 text-white">
