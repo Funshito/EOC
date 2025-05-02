@@ -10,22 +10,26 @@ function AdminSideNav() {
   const isSalaryPage = location.pathname === '/salary';
   const isOnboardingPage = location.pathname === '/onboarding';
   const isStaffPage = location.pathname === '/staffs';
+  const isDashboardPage = location.pathname === '/dashboard';
   const navigate = useNavigate();
   const handleStaff = ()=>{
     navigate('/staffs');
   }
+  const handleDashboard = ()=>{
+    navigate('/dashboard');
+  }
   const handleDocument = ()=>{
     navigate('/documents');
   }
-  const handleEmployment = ()=>{
-    navigate('/employment');
-  }
+  // const handleEmployment = ()=>{
+  //   navigate('/employment');
+  // }
   const handleSalary = ()=>{
     navigate('/salary');
   }
-  const handleOnboarding = ()=>{
-    navigate('/onboarding');
-  }
+  // const handleOnboarding = ()=>{
+  //   navigate('/onboarding');
+  // }
 
     return (
       <>
@@ -39,21 +43,24 @@ function AdminSideNav() {
                 </div>
               </div>
               <ul className="w-full capitalize text-sm font-medium leading-13">
+              <a onClick={handleDashboard} href="" >
+                  <li className={ isDashboardPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>Dashboard</li>
+                </a>
                 <a onClick={handleStaff} href="" >
                   <li className={ isStaffPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>Staffs</li>
                 </a>
                 <a onClick={handleDocument} href="">
                   <li className={ isDocumentPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>documents</li>
                 </a>
-                <a onClick={handleEmployment} href="">
+                {/* <a onClick={handleEmployment} href="">
                   <li className={ isEmploymentPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>Employement</li>
-                </a>
+                </a> */}
                 <a onClick={handleSalary} href="">
                   <li className={ isSalaryPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>salary</li>
                 </a>
-                <a onClick={handleOnboarding} href="">
+                {/* <a onClick={handleOnboarding} href="">
                   <li className={ isOnboardingPage? 'bg-white px-6 font-bold text-blue-900' : 'hover:text-blue-900 hover:bg-white px-6 hover:font-bold' }>onboarding</li>
-                </a>
+                </a> */}
               </ul>
             </div>
             

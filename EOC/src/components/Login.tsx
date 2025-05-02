@@ -33,7 +33,7 @@ function Login() {
             setEmail('');
             setPassword('');
         } else {
-          setError('Invalid credentials');
+          setError('Invalid login details');
         }
       };
     

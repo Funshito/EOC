@@ -34,34 +34,7 @@ function Dashboard() {
                                 <td className="px-4 py-3">pending</td>
                                 <td className="px-4 py-3"><button>view</button></td>
                             </tr>
-                            <tr>
-                                <td className="px-4 py-3">#13457097</td>
-                                <td className="px-4 py-3">John shaun</td>
-                                <td className="px-4 py-3">Sales rep</td>
-                                <td className="px-4 py-3">pending</td>
-                                <td className="px-4 py-3"><button>view</button></td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-3">#13457097</td>
-                                <td className="px-4 py-3">John shaun</td>
-                                <td className="px-4 py-3">Sales rep</td>
-                                <td className="px-4 py-3">pending</td>
-                                <td className="px-4 py-3"><button>view</button></td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-3">#13457097</td>
-                                <td className="px-4 py-3">John shaun</td>
-                                <td className="px-4 py-3">Sales rep</td>
-                                <td className="px-4 py-3">pending</td>
-                                <td className="px-4 py-3"><button>view</button></td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-3">#13457097</td>
-                                <td className="px-4 py-3">John shaun</td>
-                                <td className="px-4 py-3">Sales rep</td>
-                                <td className="px-4 py-3">pending</td>
-                                <td className="px-4 py-3"><button>view</button></td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>
